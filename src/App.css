@@ -180,3 +180,29 @@ footer .input-group-text{
   width: 49%;
 }
 /*Home Part Ends Here*/
+
+/* Product Card */
+.product-car{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+.product-card .product-details h5 {
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+.product-card .product-details p.price {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+/* Product Card ends here */
+
+/* our store */
+
+
+
+/* Our store ends here */
