@@ -8,9 +8,9 @@ const ProductCard = () => {
                 <img src="images/watch.jpg" alt="product iamge" />
             </div>
             <div className='product-details'>
-                <h6 className="brand">AmazFit</h6>
-                <h5 className='product-title'>Yeh hai chez</h5>
-                <p className='price'>free mei lejao</p>
+                <h6 className="brand">Yeh brand ka naam hai</h6>
+                <h5 className='product-title'>Yeh title hoga</h5>
+                <p  className='price'>$$Yeh price hoga</p>
             </div>
         </div>
       
