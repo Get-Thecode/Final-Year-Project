@@ -8,7 +8,10 @@ import Contact from './pages/Contact';
 import OurStore from './pages/OurStore';
 import Login from './pages/Login';
 import Forgotpassword from './pages/Forgotpassword';
-import Signup from './pages/Signup';
+import SignupAsCustomer from './pages/SignupAsCustomer'
+import LoginAsCustomer from './pages/LoginAsCustomer'
+import LoginAsEmployee from './pages/LoginAsEmployee'
+import SignupAsEmployee from './pages/SignupAsEmployee'
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
             <Route path='store' element={<OurStore />}/>
             <Route path='login' element={<Login />}/>
             <Route path='forgot-password' element={<Forgotpassword />}/>
-            <Route path='signup' element={<Signup />}/>
+            <Route path='signupascustomer' element={<SignupAsCustomer />}/>
+            <Route path='loginascustomer' element={<LoginAsCustomer />}/>
+            <Route path='loginasemployee' element={<LoginAsEmployee />}/>
+            <Route path='signupasemployee' element={<SignupAsEmployee />}/>
           </Route>
         </Routes>
       </BrowserRouter>
