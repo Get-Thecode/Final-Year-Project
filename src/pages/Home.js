@@ -10,7 +10,7 @@ function Home() {
         <div className="row">
           <div className="col-6">
             <div className="main-banner position-relative">
-              <img src="images/main-banner-1.jpg" className='img-fluid rounded-3' alt="main banner" />
+              <img src="images/new-girl_12e3_2880x1800.jpg" className='img-fluid rounded-3' alt="main banner" />
               <div className='main-banner-content position-absolute'>
                 <h4>Best Service</h4>
                 <h5>IPhone</h5>

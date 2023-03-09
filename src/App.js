@@ -12,6 +12,8 @@ import SignupAsCustomer from './pages/SignupAsCustomer'
 import LoginAsCustomer from './pages/LoginAsCustomer'
 import LoginAsEmployee from './pages/LoginAsEmployee'
 import SignupAsEmployee from './pages/SignupAsEmployee'
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path='loginascustomer' element={<LoginAsCustomer />}/>
             <Route path='loginasemployee' element={<LoginAsEmployee />}/>
             <Route path='signupasemployee' element={<SignupAsEmployee />}/>
+            <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
           </Route>
         </Routes>
       </BrowserRouter>
